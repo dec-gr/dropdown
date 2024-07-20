@@ -1,8 +1,6 @@
 {
-  "name": "odin-template",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "name": "@dec-gr/dropdown-webpack",
+  "version": "1.0.3",
   "scripts": {
     "test": "echo \"Error: no test specific\" && exit 1",
     "watch": "webpack --watch",
@@ -10,7 +8,7 @@
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Declan Grant",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
@@ -22,8 +20,17 @@
     "webpack-dev-server": "^5.0.4",
     "webpack-merge": "^6.0.1"
   },
-  "dependencies": {
-    "eslint": "^7.32.0",
-    "lodash": "^4.17.21"
-  }
+  "files": [
+    "dist/"
+  ],
+  "main": "./dist/dropdown-menu.js",
+  "description": "a dropdown packaged, based on the odin project, bundled with css via webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dec-gr/dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dec-gr/dropdown/issues"
+  },
+  "homepage": "https://github.com/dec-gr/dropdown#readme"
 }

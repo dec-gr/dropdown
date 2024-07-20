@@ -1,0 +1,7 @@
+.drop-down-content {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
